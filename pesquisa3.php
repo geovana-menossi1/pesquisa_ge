@@ -46,7 +46,6 @@ body{
                     ?>
                     </div>
                     <div class="conteudo3">
-                    <input type="hidden" name="nomeuser" value="<?php echo $nomeUser; ?>">
                     <?php
                     if (isset($_GET['cep'])) {
                         $cep = $_GET['cep'];
@@ -98,7 +97,7 @@ body{
             <img src="images/flor.jpg" alt="">
         </div>
     </main>
-    
+    <input type="hidden" name="nomeuser" value="<?php echo $nomeUser; ?>">
 </body>
 </html>
 
