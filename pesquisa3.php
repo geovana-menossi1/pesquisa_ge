@@ -85,10 +85,12 @@ body{
                                     arrow_forward
                                     </span> $ddd</h3>";
 
-                            $hoje = date('d/m/Y');
-                            echo "<h3>Hoje é dia <span class='material-symbols-outlined'>
-                                    arrow_forward
-                                    </span> $hoje</h3>";
+                            date_default_timezone_set('America/Sao_Paulo');
+
+                                $hoje = date('d/m/Y');
+                                echo "<h3>Hoje é dia <span class='material-symbols-outlined'>
+                                        arrow_forward
+                                        </span> $hoje</h3>";
                         }
                     }
                     ?>
